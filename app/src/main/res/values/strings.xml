@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PC1_16100781_LaTorre</string>
+    <string name="tvValor1">Valor 1</string>
+    <string name="tvValor2">Valor 2</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="btnVolver">Volver</string>
+    <string name="tvSuma">Suma</string>
+    <string name="tvResta">Resta</string>
+    <string name="tvMulti">Multiplicación</string>
+    <string name="tvDiv">División</string>
+</resources>

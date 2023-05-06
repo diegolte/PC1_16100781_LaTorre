@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultadoActivity">
+
+    <TextView
+        android:id="@+id/tvSuma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:text="@string/tvSuma"
+        app:layout_constraintBottom_toBottomOf="@+id/tvSumaRes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvSumaRes" />
+
+    <TextView
+        android:id="@+id/tvResta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/tvResta"
+        app:layout_constraintStart_toStartOf="@+id/tvSuma"
+        app:layout_constraintTop_toBottomOf="@+id/tvSuma" />
+
+    <TextView
+        android:id="@+id/tvMulti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/tvMulti"
+        app:layout_constraintStart_toStartOf="@+id/tvResta"
+        app:layout_constraintTop_toBottomOf="@+id/tvResta" />
+
+    <TextView
+        android:id="@+id/tvDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/tvDiv"
+        app:layout_constraintStart_toStartOf="@+id/tvMulti"
+        app:layout_constraintTop_toBottomOf="@+id/tvMulti" />
+
+    <TextView
+        android:id="@+id/tvSumaRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="141dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRestaRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvSumaRes"
+        app:layout_constraintTop_toBottomOf="@+id/tvSumaRes" />
+
+    <TextView
+        android:id="@+id/tvMultiRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvRestaRes"
+        app:layout_constraintTop_toBottomOf="@+id/tvRestaRes" />
+
+    <TextView
+        android:id="@+id/tvDivRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvMultiRes"
+        app:layout_constraintTop_toBottomOf="@+id/tvMultiRes" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/btnVolver"
+        app:layout_constraintEnd_toEndOf="@+id/tvDivRes"
+        app:layout_constraintTop_toBottomOf="@+id/tvDivRes" />
+</androidx.constraintlayout.widget.ConstraintLayout>
